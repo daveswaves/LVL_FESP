@@ -1,0 +1,11 @@
+body.preview {
+    background: #eee;
+}
+
+div.preview {
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    background: #fff;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.5);
+}

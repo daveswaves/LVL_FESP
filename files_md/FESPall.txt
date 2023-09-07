@@ -1,0 +1,36 @@
+***** operations that currently exist in FESP ***** in brackets need additional
+1. get Hermes data - display as editable table with inflated price and option to create csv (http://192.168.0.24/FESP-REFACTOR/get_hermes_data.php)
+2. Searchable by orderId, title, postcode, sku (by barcode etc if need more)
+3. Scan: mark/hold/unmark/take of hold (http://deepthought/sandbox/barcodedb/?action=scan); void/unvoid (http://192.168.0.24/SANDBOX/BarcodeDB/updateOrderStatus.php)
+4. Manually recreate orders from existing order (http://192.168.0.24/fesp-refactor/?action=reorder&orderID=........) load order number in reference
+5. Tracking system
+6. Dispatch/Upload tracking all platforms
+7. Finish logic
+8. Add/Delete tracking (http://192.168.0.24/resources/addTrackingID.php)
+9. Create Multiple Invoices (fix error after create order optional)(http://192.168.0.24/resources/multi_order.php)
+10. Saved Invoice (add function print by rooms)(http://deepthought/fesp-refactor/fespmvc/view_saved_invoices.php)
+11. Triple RRR (probably need rebuild)(http://192.168.0.125/ecs/frontend/dist/Login)
+12. Link to sales platform and order details (looks that works already)
+13. Preview orders
+14. CSV import for orders should platform api go down (http://192.168.0.24/FESP-REFACTOR/FespMVC/NEW_API_SYSTEM/view_stats.php?csv)(only amazon working)
+15. Send emails to customer
+16. Courier API request labels
+17. Listings (coming more info)(http://192.168.0.24/LISTINGS/listings.php)
+18. Stock Control (coming more info) (http://192.168.0.24:8080/stocksystem/dist/)
+
+***** second list is all the extras, improvements etc *****
+1. CSV export with flexible columns
+2. Rebuild main screen
+3. New system to make customer orders with quick access to SKUS and website price (http://192.168.0.24/fesp-refactor/?action=createOrderForm)
+4. Amazon messaging automatically with tracking, if not, then find another way
+5. Surcharge build (must be attached to logic)
+6. Archive new database system
+7. Store images offline
+8. Short Title for products on invoice
+9. Store tracking - Direct link (in view tracking create direct link to courier website with tracking)
+10. Edit orders without the need to print/process & recreate
+11. Surcharge emails - bulk feature
+12. Additional actions taken on orders recorded, need all timestamp on all actions
+13. Static top bar on main screen
+14. Request Hermes Multi labels
+15. Admin page to change printers, courier and etc in code

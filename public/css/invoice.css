@@ -1,0 +1,130 @@
+* {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0;
+}
+.border {
+    border: 1px solid #000;
+    border-bottom: none;
+    padding: 5px;
+    vertical-align: top;
+}
+.border:last-child {
+    border-bottom: 1px solid #000;
+}
+.header>th {
+    padding: 2px;
+    color: #fff;
+    border-bottom: 1px solid #000;
+}
+.header>th:first-child {
+    width: 92px;
+}
+.header>th:nth-child(2) {
+    width: 30px;
+}
+.header>th:nth-child(3) {
+    width: 500px;
+}
+.header>th:nth-child(4) {
+    width: 40px;
+}
+.header>th:nth-child(5) {
+    width: 70px;
+}
+.header>th:nth-child(6) {
+    width: 70px;
+}
+.header>th:nth-child(7) {
+    width: 70px;
+}
+.header>th:not(:last-child){
+    border-right: 1px solid #fff;
+}
+.items>td {
+    background:#fff;
+    border: 0 solid #fff;
+    padding: 2px;
+    text-align: center;
+}
+.items>td:first-child {
+    word-break: break-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.items>td:nth-child(3) {
+    text-align: left;
+}
+.items>td:nth-child(4) {
+    font-size: 34px;
+}
+
+.logo {
+    max-height: 20mm;
+}
+
+.item-purchased {
+    width: 100%;
+    display: inline-block;
+    border-bottom: 1px solid #888;
+    margin-top: 4px;
+    padding-top: 4px;
+}
+.item-purchased::before {
+    content: "Item purchased: ";
+    font-style: oblique;
+    font-weight: normal;
+}
+
+.small {
+    font-size: 11px;
+}
+
+address {
+    display: block;
+    border: 1px solid black;
+    
+    width: 187mm;
+    min-width: 187mm;
+    max-width: 187mm;
+    
+    height: 470px;
+    min-height: 470px;
+    max-height: 470px;
+    
+    font-style: normal;
+    margin-left: 6mm;
+    margin-bottom: 6.5mm;
+    /*margin-bottom: 5mm;*/
+}
+.address-label {
+    padding-left: 2em;
+    display: inline-block;
+    line-height: 1.8em;
+}
+.address-label>h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#label {
+    position: relative;
+}
+
+/*#label>section {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    text-align: right;
+    padding-right: 14px;
+}*/

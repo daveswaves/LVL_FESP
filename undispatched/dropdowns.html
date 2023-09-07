@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dropdowns</title>
+
+<link href="http://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+
+<style>
+    * {
+        font-family: 'Nunito', tahoma, arial, sans-serif;
+    }
+    
+    nav {
+        margin-top: 0.5em;
+        font-size: 0.9em;
+        box-sizing: inherit;
+        outline: none;
+        text-align: center;
+        border-spacing: 0;
+    }
+    
+    nav ul {
+        white-space: nowrap;
+        opacity: 0.75;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        font-size: inherit;
+        transition: all 0.2s;
+    }
+    
+    nav > ul > li {
+        position: relative;
+        display: inline-block;
+        font-size: inherit;
+        font-family: inherit;
+        background: linear-gradient(#78a, #579);
+        border-radius: 2px;
+        box-shadow: 1px 1px 0 0 rgba(17, 68, 102, 1);
+        margin-bottom: 1px;
+        border: 1px solid #124;
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(50, 50, 50, 0.5);
+        cursor: default;
+    }
+    
+    nav ul ul {
+        right: auto;
+        left: -1px;
+        z-index: 99;
+        /*display: none;*/
+        position: absolute;
+        top: 100%;
+        background: #78a;
+        /*background: rgba(0, 85, 255, 0.25);*/
+        border-top: none;
+    }
+    
+    nav ul ul:hover {
+        background: rgba(0, 85, 255, 0.25);
+    }
+    
+    nav  li {
+        float: none;
+        display: block;
+        position: relative;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+</style>
+
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li>
+            Action &#9662;
+            <ul>
+                <li>View Order on amazon</li>
+                <li>View Tracking</li>
+                <li>Edit Order</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+
+
+<!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> -->
+<!-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> -->
+<script>
+$(function() {});
+</script>
+</body>
+</html>

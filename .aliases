@@ -1,0 +1,13 @@
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -m \"\"'
+alias gac='git commit -am \"\"'
+alias gsl='git shortlog'
+alias gl='git log'
+alias gp='git push'
+alias gpl='git pull'
+
+alias grp='grep -niR \"\"'
+alias grp_ig='grep -niR --exclude-dir=DIR \"\"'
+
+alias run='npm run dev'
